@@ -1,4 +1,4 @@
-(https://github.com/AlekseySuhorukov/kittygram_final/actions/workflows/main.yml/badge.svg)
+![workflow](https://github.com/AlekseySuhorukov/kittygram_final/actions/workflows/main.yml/badge.svg)
 # kittygram
 Яндекс Практикум, Спринт 16
 
