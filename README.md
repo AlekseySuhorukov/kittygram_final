@@ -8,7 +8,7 @@
 
 На сервере, где разворачивается проект, должен быть установлен Docker
 
-1. Установка докера:
+1. Установитть докер:
 Windows: установите WSL [по инструкции](https://learn.microsoft.com/ru-ru/windows/wsl/install), после чего установите [Docker Desktop](https://www.docker.com/products/docker-desktop/).
 macOS: установите [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 Linux: установите Docker Engine, используя готовый скрипт от Docker:
@@ -17,7 +17,7 @@ curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh ./get-docker.sh
 ```
 
-2. Создаём директорию проекта на сервере:
+2. Создать директорию проекта на сервере:
 ```
 mkdir ~/kittygram
 ```
@@ -51,14 +51,14 @@ USER: ваше имя пользователя на сервере
 cd kittygram_final
 ```
 
-4. Пушим приложение на github:
+4. Из этой директории запушить приложение на github:
 ```
 git add .
 git commit -m 'my commit'
 git push
 ```
 
-Проект пройдёт тесты и запустится на сервере
+5. При пуше проект пройдёт встроенные тесты. Скрипты создадут необходимые файлы на сервере в директории ~/kittygram. Будут развёрнуты контейнеры, и приложение будет готово к работе.
 
 ### Использованные технологии:
 ```
