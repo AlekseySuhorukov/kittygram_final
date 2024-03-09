@@ -1,7 +1,7 @@
 import os
+from pathlib import Path
 
 from django.core.management.utils import get_random_secret_key
-from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -107,7 +107,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': [
-        'rest_framework.permissions.IsAuthenticated', 
+        'rest_framework.permissions.IsAuthenticated',
     ],
 
     'DEFAULT_AUTHENTICATION_CLASSES': [
